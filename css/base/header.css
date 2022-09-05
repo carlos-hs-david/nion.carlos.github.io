@@ -15,8 +15,8 @@
     margin-left: 30px;
 }
 
-header a {
-  margin-left:30px;
+header li {
+  margin-right:30px;
 }
 
 .header-menu {
@@ -49,12 +49,10 @@ header a {
 }
 
 .header-menu li {
-    padding:2px;
-    margin-right: auto;
-    margin-left: auto;
+    padding:2px;    
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .header-menu {
     gap: 20px;      
   }
@@ -63,25 +61,78 @@ header a {
     padding: 6px 16px;
     border-radius: 4px;
   }
+
+  header ul {
+    margin-right:0px;
+  }
+
   .header-menu a:hover {
     background-color: var(--cor-10);
   }
   .header a:after {
     display: none;
   }
+  .header-menu {
+    margin-left: 0px;  
+  }
+  .header-menu li {
+    padding:0px;      
+  }
+  .header-menu a {   
+    font-size: 16px;
+  }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
   .header-menu {
     gap: 12px;      
   }
-  .header-menu a {      
-    padding: 8px 12px;
-    font-size: 14px;
+  .header-menu a {   
+    font-size: 12px;
   }
 
-  .header-menu li {
-    padding:0px;      
+  
+  /* header li {
+    margin-right:10px;
+  } */
+
+  /* header ul {
+    margin-right:0px;
+  } */
+}
+
+@media (max-width: 450px) {
+  .header-menu {
+    margin-left: 0px;  
+  }
+  
+  .header-menu a {   
+    font-size: 12px;    
+  }
+
+  .header-menu {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:5px;
+    margin-left:0px;    
+  }
+
+  
+  .header-menu li { 
+    padding-top: 10px;   
+    padding-bottom: 10px;    
+  }
+
+  
+}
+
+@media (max-width: 450px) {
+
+  .header-menu {
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:5px;
+    margin-left:0px;    
   }
 }
  

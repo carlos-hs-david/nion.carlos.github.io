@@ -233,7 +233,48 @@
 @media (max-width:800px) {
     .cardapio-título {
         font-size: 32px;
+    }    
+   
+    .cardapio-sushi {
+        font-size: 16px;
     } 
+    
+    .cardapio-sashimi {        
+        font-size: 16px;                
+    }            
+   
+    .cardapio-pratos-quentes {
+        font-size: 16px;
+    }
+   
+    
+    .cardapio-título {
+        font-size: 32px;
+    }    
+}
+
+@media (max-width:400px) {
+    .cardapio-título {
+        font-size: 24px;
+    }    
+   
+    .cardapio-sushi {
+        font-size: 12px;
+    } 
+    
+    .cardapio-sashimi {        
+        font-size: 12px;                
+    }            
+   
+    .cardapio-pratos-quentes {
+        font-size: 12px;
+    }
+   
+    
+    .cardapio-título {
+        font-size: 24px;
+    }  
+   
 }
 
 

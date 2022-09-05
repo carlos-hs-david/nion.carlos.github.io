@@ -40,9 +40,10 @@
     }
     .footer-icones  {
         display: flex;
-        align-items: right;
-        justify-content: end;
-        margin-right: auto;
+        align-items: left;
+        justify-content: start;
+        
+        margin-right: 0;
         margin-left: 60px;
     }
     
@@ -57,4 +58,18 @@
         padding-bottom: 0;
     }
        
+}
+
+@media (max-width:600px) {
+    .footer-texto h3 {
+        font-size: 10px;
+        margin-right: 0px;
+    }    
+}
+
+@media (max-width:500px) {
+
+    .footer-icones a {
+        padding-bottom: 10px;               
+    } 
 }

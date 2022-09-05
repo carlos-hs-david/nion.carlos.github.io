@@ -31,7 +31,8 @@
 }
 
 .especialidades-img li {
-    padding: 60px;
+    margin-right: 60px;
+    padding-bottom: 30px;
     height: 100%;    
 }
 
@@ -84,7 +85,17 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
         gap:40px;
-        margin-left:0px;        
+        margin-left:30px;
+        margin-right: 0px;        
+    }
+
+    .especialidades-img {
+        margin-left:60px;
+                
+    }
+    
+    .especialidades-img li {
+        margin-right: 30px;        
     }    
 
     .especialidades-titulo {
@@ -94,22 +105,25 @@
         margin-right: 30px; 
     }
     .especialidades-link1 {
-        font-size: 24px;          
+        font-size: 24px;
+                  
     }
     
     .especialidades-link2 {
-        font-size: 24px;    
+        font-size: 24px;
+         
     }
     
     .especialidades-link3 {
-        font-size: 24px;  
+        font-size: 24px;
+          
     }
 
    
 }
   
 
-@media (max-width:800px) {
+@media (max-width: 700px) {
 
     .especialidades-img ul {
         display:grid;
@@ -134,5 +148,51 @@
     }
 }
 
+@media (max-width:450px) {
+
+    .especialidades-img {
+        margin-left: 60px;
+        margin-right: 0px; 
+    } 
+
+    .especialidades-img img {
+        height: 85%;
+        width: 85%;       
+    }   
+    
+    .especialidades-titulo {
+        font-size: 24px;
+    }
+    .especialidades-link1 {
+        font-size: 18px;
+        padding: 10px 30px 10px 30px;           
+    }
+    
+    .especialidades-link2 {
+        font-size: 18px;
+        padding: 10px 30px 10px 30px;     
+    }
+    
+    .especialidades-link3 {
+        font-size: 16px;
+        padding: 10px 30px 10px 30px;   
+    }
+
+    .agendamento-texto {
+        font-size: 18px;         
+    }
+
+    .botao {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:300px) {   
+
+    .especialidades-img img {
+        height: 85%;
+        width: 85%;       
+    }
+}     
 
 

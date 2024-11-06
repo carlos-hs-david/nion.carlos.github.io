@@ -188,7 +188,25 @@
     .formulario {        
         width: 180px;
         font-size: 10px;
-    } 
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        text-align: left;
+        padding-bottom: 15px;
+        padding-left: 30px; 
+        
+        
+        
+    }
+    
+    .contato-formulario {        
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        text-align: left;
+        
+    }
+
     .formulario-titulo {
         font-size: 18px;
     }  

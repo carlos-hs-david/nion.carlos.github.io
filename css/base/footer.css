@@ -6,12 +6,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .footer-texto {
-    text-align: start;    
+    text-align: center;    
     margin-right: auto;
     margin-left: 60px;        
 }
